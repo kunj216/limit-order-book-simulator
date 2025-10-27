@@ -1,0 +1,42 @@
+# Build directories
+build/
+cmake-build-*/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+
+# Generated data files (keep sample data)
+data/benchmark_*.csv
+data/large_test.csv
+data/medium_test.csv
+data/test_*.csv*
+data/*_depth.csv*
+data/*_live.csv*
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.log
+.*.swp
